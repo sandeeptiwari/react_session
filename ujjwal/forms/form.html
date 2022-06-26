@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script defer src="script.js"></script>
+    <style>
+        form{
+            padding:60px 500px
+    
+        }
+        
+        h1{
+            padding:30px 400px
+            
+        }
+        button{
+            color:blue
+        }
+        .formdesign input{
+            width: 30;
+            padding: 8px 15px;
+        }
+        .formerror{
+            color:red;
+        }
+        .but{
+            border-radius: 9px;
+            width:100px;
+            height:30px;
+            font-size:25px;
+            margin:22px 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>APPLICATION FORM</h1>
+    <form >
+        <div class="formdesign" id="username">
+            <label ><b>UserName</b></label><br>
+            <input name="UserName" type="text">
+        </div>
+        <div class="formdesign" id="email">
+            <label><b>emailid</b></label><br>
+            <input  name="mailid"  type="email">
+        </div>
+        
+        <div class="formdesign" id="pass" >
+            <label><b>Password</b></label><br>
+            <input  name="pass" type="password">
+        </div>
+
+
+
+
+        
+        <div  class="formdesign" id="conpass">
+            <label><b>confirm password</b></label><br>
+            <input name="confirmpassword" type="password">
+        </div>
+        
+        <input type="submit" class="but" value="submit">
+
+    </form>
+    
+</body>
+</html>
