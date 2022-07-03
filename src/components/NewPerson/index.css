@@ -1,0 +1,32 @@
+.new-person {
+    background-color: aquamarine;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-person button {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 1px solid #128370;
+    background-color: #128370;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-person button:hover,
+  .new-person button:active {
+    background-color: #128370;
+    border-color: #128370;
+  }
+  
+  .new-person button.alternative {
+    color: #128370;
+    border-color: transparent;
+    background-color: transparent;
+  }

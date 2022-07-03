@@ -1,0 +1,24 @@
+.person {
+    background-color: aquamarine;
+    padding: 25px;
+    margin: 25px;
+    text-align: left;
+}
+
+.person__info {
+    display: inline-block;
+}
+
+.person__update {
+   float: right;
+   margin-top: 75px;
+}
+
+.person label{
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+}
+.person span{
+    font-size: 22px;
+}
